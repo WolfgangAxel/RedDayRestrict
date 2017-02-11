@@ -72,7 +72,7 @@ try:
 except:
     exit("No "+MyDirPath+"message.md file found. Please create this file and write a message to send to offenders. You may use markdown if you wish.\n    Exiting.")
 
-if not (MY_PERSONAL_REDDIT_ACCOUNT and REDDIT_BOT_USERNAME and REDDIT_BOT_PASSWORD and REDDIT_BOT_CLIENT_ID and REDDIT_BOT_SECRET and MY_SUBREDDIT and RESTRICTED_LINK_DOMAINS and REMOVAL_MESSAGE):
+if not (MY_PERSONAL_REDDIT_ACCOUNT and REDDIT_BOT_USERNAME and REDDIT_BOT_PASSWORD and REDDIT_BOT_CLIENT_ID and REDDIT_BOT_SECRET and MY_SUBREDDIT and REMOVAL_MESSAGE):
     exit("Error when defining variables. Please open "+__file__+" in a text editor and ensure all variables are defined.\n\n    Exiting.")
 
 try:
